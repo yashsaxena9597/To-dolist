@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<style type="text/css">
+   .con{
+  margin-left: 0%;
+  margin-right: 0%;
+  background-color:#230229  ;
+  padding: 2%;
+  color: white;
+  border-radius: 20px;
+  margin-top: 2%;
+  text-align: center;
+}
+.confl
+{
+  text-align: center;
+  background-color: #10B3C0  ;
+}
+.con1{
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgba(255,255,255,0.51);
+  border-radius: 20px;
+  margin-top: 2%;
+  text-align: center;
+  padding: 2%;
+
+}
+.con2{
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: transparent;
+  border-radius: 20px;
+  margin-top: 2%;
+  text-align: center;
+  padding: 2%;
+
+
+}
+#text-area
+{
+  display: none;
+}
+.dis{
+  margin-top: 1%;
+  background-color:lightgray;
+    border-radius: 5%;
+     
+  height: 100%;
+
+}
+.Todo{
+  float: left;
+  
+  
+
+
+}
+.CompletedTask{
+  float:right;
+  
+}
+
+
+  </style>
+<title>Todo list</title>
+</head>
+<body class="confl">
+	<div class="con">
+		<h1 >To do list</h1>
+		
+	</div>
+  <div class="con1">
+    <label>Add task</label>
+    <input type="text" class="dis" id="data">
+    <input type="button" name="" value="Add task" id="btn">
+    
+  </div>
+
+  <div class="con2" style="text-align: left;">
+  <div class="Todo" > <h1>Todo</h1>
+    <ul id="todo">
+
+
+    </ul>
+  </div>
+  <div class="CompletedTask"  id="com"><h1> Completed Task</h1></div>
+
+  </div>
+
+
+	<script src="main.js"></script>
+
+
+</body>
+</html>
